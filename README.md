@@ -49,29 +49,17 @@ Diligence_landing/
 
 Desde la raíz del proyecto, ejecutar:
 
-```bash
 npm install
 Levantar servidor de desarrollo
-bash
-Copiar
-Editar
+
 npm run dev
 Abre el navegador en:
 
-arduino
-Copiar
-Editar
 http://localhost:5173/
 Para exponer el servidor en red local (otro dispositivo):
 
-bash
-Copiar
-Editar
 npm run dev -- --host
 Construir para producción
-bash
-Copiar
-Editar
 npm run build
 El build listo queda en la carpeta dist/.
 
@@ -101,7 +89,7 @@ export default function App() {
   )
 }
 
-Notas técnicas
+Notas técnicas:
 El proyecto usa módulos ES ( "type": "module" en package.json ).
 
 Configuración lista para Vercel y otros hosts de apps estáticas React.
